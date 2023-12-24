@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --main-color: #4cb9e7;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-color);
+}
+img {
+  max-width: 100%;
+  max-height: auto;
+}
+h1,
+span,
+h3,
+h2,
+p,
+button {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+  text-align: center;
+  text-transform: capitalize;
+}
+.color_flipper .colors {
+  background-color: #161616;
+  color: #ffff;
+  padding: 1rem 2rem;
+  text-transform: capitalize;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.color_flipper .btn_color {
+  display: block;
+  margin: 1rem auto;
+  cursor: pointer;
+  padding: 1rem 2rem;
+}
